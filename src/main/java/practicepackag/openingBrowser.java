@@ -6,6 +6,9 @@ public class openingBrowser {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://google.com");
         driver.manage().window().maximize();
+        String title = driver.getTitle();
+      driver.quit();
+
     }
 }
 
