@@ -35,10 +35,7 @@ public class Activity1 {
             loginBtnElement.click();
             driver.quit();
         }
-
 }
-
-
 /*
     In Retail app, click on sign in then click on Create new Account
     then fill up the form and sign up. Expectation is to Create new Account.
