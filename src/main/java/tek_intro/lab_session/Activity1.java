@@ -1,4 +1,4 @@
-package tek_intro.Lab_sesson;
+package tek_intro.lab_session;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
