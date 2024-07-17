@@ -10,7 +10,7 @@ public class Activity1 {
                 throws InterruptedException { WebDriver driver = new ChromeDriver();
             Thread.sleep(5000); driver.manage().window().maximize();
             driver.get("https://retail.tekschool-students.com/");
-            By signInLocator = By.id("signinLink");
+            By signInLocator = By.id("signInLink");
             WebElement signInElement = driver.findElement(signInLocator);
             signInElement.click();
             By createNewAccount = By.id("newAccountBtn");
@@ -23,7 +23,7 @@ public class Activity1 {
             emailInputElement.sendKeys("ABC2020@gmail.com");
             By passwordLocator = By.id("passwordInput");
             WebElement passwordElement = driver.findElement(passwordLocator);
-            passwordElement.sendKeys("12345world");
+            passwordElement.sendKeys("@12345World");
             By confirmPasswordLocator = By.id("passwordInput");
             WebElement confirmPasswordElement = driver.findElement(confirmPasswordLocator);
             confirmPasswordElement.sendKeys("12345world");

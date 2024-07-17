@@ -9,7 +9,7 @@ public class TekRetailAccount {
         WebDriver driver = new ChromeDriver();
         driver.get("https://tek-retail-ui.azurewebsites.net/");
         driver.manage().window().maximize();
-        driver.findElement(By.id("signinLink")).click();
+        driver.findElement(By.id("signInLink")).click();
         driver.findElement(By.id("newAccountBtn")).click();
         driver.findElement(By.id("nameInput")).sendKeys("Amena");
         String emailPrefix = "Amena_spartans";

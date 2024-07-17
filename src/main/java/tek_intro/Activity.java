@@ -10,7 +10,7 @@ public class Activity {
         WebDriver driver = new ChromeDriver();
         Thread.sleep(4000);
         driver.manage().window().maximize();
-        driver.get("https://retail.tekschool-students.com/");
+        driver.get("https://tek-retail-ui.azurewebsites");
 
         By signInLocator = By.id("signingLink");
         WebElement singElement = driver.findElement(signInLocator);

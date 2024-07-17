@@ -10,7 +10,7 @@ public class Activity3 {
         driver.get(" https://tek-retail-ui.azurewebsites.net/ ");
         driver.manage().window().maximize();
 
-        driver.findElement(By.id("signinLink")).click();
+        driver.findElement(By.id("signInLink")).click();
         driver.findElement(By.id("newAccountBtn")).click();
         driver.findElement(By.id("nameInput")).sendKeys("Baha");
         String emailPrefix = "Amena-B";
@@ -26,9 +26,9 @@ public class Activity3 {
         if (isDisplayed){
             System.out.println("Profile image is displayed");
         } else {
-            System.out.println(" Profile image is no displayed");
+            System.out.println(" Profile image is not displayed");
         }
-       // driver.quit();
+        //driver.quit();
 
 
     }
