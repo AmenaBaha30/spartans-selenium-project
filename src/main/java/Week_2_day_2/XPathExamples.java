@@ -14,8 +14,10 @@ public class XPathExamples {
         driver.get("https://retail.tekschool-students.com/");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//p[text()='Video Games']")).click();
-        driver.findElement(By.xpath("//p[text()='PlayStation 5 Console']")).click();
+        driver.findElement(By.xpath("//p[text()='Trading Card Binder']")).click();
         driver.findElement(By.xpath("//span[text()='Add to Cart']")).click();
+
+
 
     }
 }
